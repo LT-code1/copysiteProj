@@ -1,0 +1,143 @@
+
+
+header {
+    background-color: rgb(58, 38, 38);
+    display: flex;
+    color:  white;
+    font-size: 1em;
+    height: 60px;
+    align-items: center;
+}
+
+.circle {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(58, 38, 38);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;    
+}
+
+.search1 {
+    display: flex;
+    margin: 5px;
+}
+
+.nav1{
+    display: flex;
+}
+
+.nav1 div{
+    display: flex;
+    margin: 5px;
+    color:  white;
+    font-size: 1em;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.list1{
+    display: flex;
+}
+
+    .list1 div{
+        display: flex;
+        color: black;
+        margin: 1.5em;
+        font-size: 1em; 
+    }
+
+.list2{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em;
+}
+
+        #l2-1{
+            display: flex;
+            height: 60px;
+        }
+
+        #l2-2{
+            display: flex;
+            height: 60px;
+        }
+
+.list3{
+    color:blue;
+    display: flex;
+    flex-direction: column;
+    height:60vh;
+}
+    .row {
+        display: flex;
+    }
+
+    .article {
+        display: flex;
+        height: 20vh;
+        width: 50%;
+        border:  2px solid rgb(165, 130, 130);
+        margin: 5px;
+        padding: 15px;
+    }
+
+    #row1{
+        display: flex;
+    }
+
+    #article1-1{
+        display: flex;
+        height: 10;
+        width: 20%;
+        border:  2px solid rgb(165, 130, 130);
+    }
+
+    #article1-2{
+        display: flex;
+        height: 10;
+        width: 20%;
+        border:  2px solid rgb(165, 130, 130);
+    }
+    #row2{
+        display: flex;
+    }
+
+    #article2-1{
+        display: flex;
+        height: 10;
+        width: 20%;
+        border:  2px solid rgb(165, 130, 130);
+    }
+
+    #article2-2{
+        display: flex;
+        height: 10;
+        width: 20%;
+        border:  2px solid rgb(165, 130, 130);
+    }
+    #row3{
+        display: flex;
+    }
+
+        #article3-1{
+            display: flex;
+            height: 10;
+            width: 20%;
+            border:  2px solid rgb(165, 130, 130);
+        }
+
+        #article3-2{
+            display: flex;
+            height: 10;
+            width: 20%;
+            border:  2px solid rgb(165, 130, 130);
+        }
